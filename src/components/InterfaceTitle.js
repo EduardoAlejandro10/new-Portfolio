@@ -48,7 +48,7 @@ const [value, setValue] = useState(false);
   return (
     <div>
       
-<section id='main' className="landing-interface">
+<section id='scroll' className="landing-interface">
  
 <div  className="landing-description"> 
 <h1>Soy <span ref={el}></span></h1>
@@ -82,7 +82,7 @@ const [value, setValue] = useState(false);
 </div>
 </section>
 
-<a href="#main"><i className={`${value ? "fa-solid fa-angle-up up-button" : "fa-solid fa-angle-up up-button-hide" }`}></i></a>
+<a href="#scroll"><i className={`${value ? "fa-solid fa-angle-up up-button" : "fa-solid fa-angle-up up-button-hide" }`}></i></a>
     </div>
   );
 };
