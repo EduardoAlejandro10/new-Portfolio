@@ -30,7 +30,7 @@ export function About() {
     <section
       ref={elementRef}
       id='about'
-      className={`about-container ${isVisible ? 'fadeout' : ''}`}
+      className='about-container'
     >
       <motion.div
         initial={{ x: -100, opacity: 0 }}

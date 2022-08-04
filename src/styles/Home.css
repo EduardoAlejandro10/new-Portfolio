@@ -7,8 +7,50 @@
   flex-wrap: wrap;
   background-color: #fff;
 }
+
 a {
   text-decoration: none !important;
+}
+
+.up-button {
+
+  visibility: initial;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  padding-top: 10px;
+  border-radius: 10%;
+  background-color: #f3b32a;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+  z-index: 9999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+
+  
+
+}
+
+
+.up-button-hide {
+  visibility: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: #f3b32a;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+  z-index: 9999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 .landing-description h1 {
@@ -99,7 +141,7 @@ a {
   font-size: 20px;
 }
 
-.about-description > .about-main-description {
+.about-description>.about-main-description {
   width: 50%;
   min-width: 300px;
 }
@@ -263,6 +305,7 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.56);
 }
+
 /* 
 .freelance-container h3 {
   color: #fff;
@@ -396,7 +439,7 @@ a {
   color: #fff;
 }
 
-.img-overlay-content > p,
+.img-overlay-content>p,
 h5 {
   margin-right: 40%;
 }
@@ -533,6 +576,7 @@ h5 {
 textarea {
   border: 1px solid lightgray;
 }
+
 textarea:focus {
   outline: none;
   border: 1px solid #f3b32a;
@@ -548,6 +592,26 @@ textarea:focus {
     width: 100%;
   }
 
+  .up-button {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+
+  .download-buttons-container {
+    justify-content: center;
+
+  }
+
+
+  .social-media-container {
+    justify-content: center;
+
+  }
+
   .inputs-container {
     display: flex;
     justify-content: center;
@@ -558,6 +622,14 @@ textarea:focus {
 
   .inputs-container input {
     width: 300px;
+  }
+
+  .landing-description span {
+    font-size: 25px;
+  }
+
+  .landing-description h1 {
+    font-size: 25px;
   }
 }
 

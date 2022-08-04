@@ -3,10 +3,10 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div style={{ position: 'sticky', top: '0', zIndex: '999' }}>
-      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div className='container-fluid'>
+      <nav  className='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <div  className='container-fluid'>
           <a id='about' className='navbar-brand' href='#'>
-            Navbar
+            Eduardo Alejandro
           </a>
           <button
             className='navbar-toggler'
@@ -24,23 +24,23 @@ const NavBar = () => {
             <ul className='navbar-nav me-auto'>
               <li className='nav-item'>
                 <a className='nav-link active' href='#'>
-                  Home
+                 
                   <span className='visually-hidden'>(current)</span>
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
-                  Features
+                <a  className='nav-link' href='#'>
+                  Habilidades
                 </a>
               </li>
               <li className='nav-item'>
                 <a className='nav-link' href='#'>
-                  Pricing
+                  Proyectos
                 </a>
               </li>
               <li className='nav-item'>
                 <a className='nav-link' href='#'>
-                  About
+                  Contacto
                 </a>
               </li>
             </ul>
