@@ -3,8 +3,8 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div style={{ position: 'sticky', top: '0', zIndex: '999' }}>
-      <nav  className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div  className='container-fluid'>
+      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <div className='container-fluid'>
           <a id='main' className='navbar-brand' href='#main'>
             Eduardo Alejandro
           </a>
@@ -24,22 +24,21 @@ const NavBar = () => {
             <ul className='navbar-nav me-auto'>
               <li className='nav-item'>
                 <a className='nav-link active' href='#main'>
-                 
                   <span className='visually-hidden'>(current)</span>
                 </a>
               </li>
               <li className='nav-item'>
-                <a  className='nav-link' href='#main'>
+                <a className='nav-link' href='#skills'>
                   Habilidades
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#main'>
+                <a className='nav-link' href='#projects'>
                   Proyectos
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#main'>
+                <a className='nav-link' href='#contact'>
                   Contacto
                 </a>
               </li>
