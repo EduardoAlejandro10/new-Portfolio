@@ -5,7 +5,7 @@ const NavBar = () => {
     <div style={{ position: 'sticky', top: '0', zIndex: '999' }}>
       <nav  className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <div  className='container-fluid'>
-          <a id='about' className='navbar-brand' href='#'>
+          <a id='main' className='navbar-brand' href='#main'>
             Eduardo Alejandro
           </a>
           <button
@@ -23,7 +23,7 @@ const NavBar = () => {
           <div className='collapse navbar-collapse' id='navbarColor02'>
             <ul className='navbar-nav me-auto'>
               <li className='nav-item'>
-                <a className='nav-link active' href='#'>
+                <a className='nav-link active' href='#main'>
                  
                   <span className='visually-hidden'>(current)</span>
                 </a>
@@ -34,12 +34,12 @@ const NavBar = () => {
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a className='nav-link' href='#main'>
                   Proyectos
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='#'>
+                <a className='nav-link' href='#main'>
                   Contacto
                 </a>
               </li>
