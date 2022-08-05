@@ -6,5 +6,10 @@
 
 html {
   scroll-behavior: smooth;
+<<<<<<< HEAD
 
 }
+=======
+  scroll-margin-top: 60px;
+}
+>>>>>>> 67686bec3be32bac30071eeb186e853bcf13d47b
