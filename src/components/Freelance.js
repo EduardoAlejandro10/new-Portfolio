@@ -3,7 +3,7 @@ import { useIsVisible } from '../hooks/useIsVisible';
 import { useAnimationControls } from 'framer-motion';
 import { motion } from 'framer-motion';
 
-const Freelance = ({goAllTheWayUp}) => {
+const Freelance = () => {
   const { isVisible, elementRef } = useIsVisible({
     once: true,
     threshold: 0.5,

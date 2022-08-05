@@ -13,8 +13,7 @@ export default function Skills() {
           Mis <span>Habilidades</span>
         </h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo ratione vitae
-          asperiores, earum tenetur optio dignissimos reiciendis aliquam eum praesentium?
+          Algunas de mis habilidades como desarollador web enfocado a cumplir tus necesidades de aplicaciones web.
         </p>
         <div className='underline-services'></div>
       </section>

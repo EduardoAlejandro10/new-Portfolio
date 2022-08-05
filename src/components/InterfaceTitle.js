@@ -53,9 +53,8 @@ const [value, setValue] = useState(false);
 <div  className="landing-description"> 
 <h1>Soy <span ref={el}></span></h1>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-    error veniam voluptates. Debitis adipisci iure doloremque unde
-    incidunt velit, fugiat totam similique autem, voluptates architecto
+    Me especializo en React js para el desarollo de aplicaciones web FullStack
+    completamente responsive y que se ajuste a tus necesidades como cliente.  
   </p>
   <div className="social-media-container">
     <a href='https://www.linkedin.com/in/eduardo-alejandro-botello-peña-a37557234' 

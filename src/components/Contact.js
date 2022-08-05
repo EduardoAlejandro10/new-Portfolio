@@ -42,8 +42,8 @@ export function Contact() {
       <div className='form-title'>
         <h2>me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestias reiciendis
-          assumenda quos enim magni sit nihil aliquam porro voluptatibus?
+          contactame para mas informacion ya sea por el formulario debajo o por telefono, recuerda que todo empieza con una
+          idea.
         </p>
       </div>
       <div className='form-container'>
