@@ -2,15 +2,13 @@ import React from 'react';
 import { ecommerce, morty, doc, crud } from '../assets';
 import { useState } from 'react';
 const MyProjects = () => {
+
   const [toggle, setToggle] = useState(0);
+
 
   return (
     <div>
-<<<<<<< HEAD
        <section id='proyects' className='my-services-landing'>
-=======
-      <section id='projects' className='my-services-landing'>
->>>>>>> 67686bec3be32bac30071eeb186e853bcf13d47b
         <h2>
           Mis <span>Proyectos</span>
         </h2>
@@ -20,7 +18,7 @@ const MyProjects = () => {
         </p>
         <div className='underline-services'></div>
       </section>
-      <section className='my-work'>
+          <section className='my-work'>
         <div className='work-buttons-container'>
           <button onClick={() => setToggle(0)}>Todos</button>
           <button onClick={() => setToggle(1)}>Ecommerce</button>
