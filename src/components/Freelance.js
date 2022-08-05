@@ -40,7 +40,6 @@ const Freelance = ({goAllTheWayUp}) => {
           </a>
         </motion.div>
       </section>
-      <a href="#main">sssss</a>
     </div>
   );
 };
