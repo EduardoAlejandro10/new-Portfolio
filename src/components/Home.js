@@ -5,12 +5,14 @@ import { About } from "./About";
 import Skills from "./Skills";
 import MyProjects from "./MyProjects";
 import Freelance from "./Freelance";
+import NavBar from "./NavBar";
 
 const Home = () => {
 
 
   return (
     <div className="main-landing">
+      <NavBar />
       <InterfaceTitle />
       <About />
       <Skills />

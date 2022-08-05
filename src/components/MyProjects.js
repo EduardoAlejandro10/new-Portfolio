@@ -8,7 +8,7 @@ const MyProjects = () => {
 
   return (
     <div>
-       <section className='my-services-landing'>
+       <section id='proyects' className='my-services-landing'>
         <h2>
           Mis <span>Proyectos</span>
         </h2>

@@ -8,7 +8,7 @@ export default function Skills() {
 
   return (
     <>
-      <section className='my-services-landing'>
+      <section id='skills' className='my-services-landing'>
         <h2>
           Mis <span>Habilidades</span>
         </h2>

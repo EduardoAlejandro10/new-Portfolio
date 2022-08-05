@@ -38,7 +38,7 @@ export function Contact() {
   };
 
   return (
-    <section className='form-section'>
+    <section id='contact' className='form-section'>
       <div className='form-title'>
         <h2>me</h2>
         <p>
