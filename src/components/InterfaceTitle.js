@@ -2,8 +2,8 @@
 import React from 'react';
 import Typed from "typed.js";
 import {  useRef, useEffect } from "react";
-import landing from "../assets/landing.png";
 import { useState } from 'react';
+import { photo1 } from '../assets';
 
 
 const InterfaceTitle = () => {
@@ -77,7 +77,7 @@ const [value, setValue] = useState(false);
   </div>
 </div>
 <div className="landing-img-container">
-  <img src={landing} alt="landing" className="landing-img" />
+  <img src={photo1} alt="landing" className="landing-img" />
 </div>
 </section>
 

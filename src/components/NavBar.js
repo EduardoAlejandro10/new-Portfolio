@@ -3,12 +3,13 @@ import React from 'react';
 const NavBar = () => {
   return (
     <div  style={{ position: 'sticky', top: '0', zIndex: '999' }}>
-      <nav  className='navbar navbar-expand-lg navbar-dark bg-dark'>
+      <nav id='nav' className='navbar navbar-expand-lg navbar-dark bg-dark'>
         <div  className='container-fluid'>
           <a id='main' className='navbar-brand' href='#main'>
             Eduardo Alejandro
           </a>
           <button
+          
             className='navbar-toggler'
             type='button'
             data-bs-toggle='collapse'
@@ -17,7 +18,7 @@ const NavBar = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span className='navbar-toggler-icon'></span>
+            <span id='button' className='navbar-toggler-icon'></span>
           </button>
 
           <div className='collapse navbar-collapse' id='navbarColor02'>

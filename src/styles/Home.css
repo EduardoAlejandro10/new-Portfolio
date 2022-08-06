@@ -92,7 +92,7 @@ a {
 
 .landing-img {
   width: 100%;
-
+max-width: 600px;
   min-width: 360px;
 }
 
@@ -120,8 +120,8 @@ a {
 }
 
 .about-img-container {
-  width: 80%;
-  max-width: 350px;
+  width: 100%;
+  max-width: 500px;
   min-width: 280px;
   border: 15px solid #f3b32a;
 }
@@ -582,6 +582,13 @@ textarea:focus {
   border: 1px solid #f3b32a;
 }
 
+
+#nav {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+
 /* media querys */
 
 @media screen and (max-width: 720px) {
@@ -591,6 +598,19 @@ textarea:focus {
     gap: 1px;
     width: 100%;
   }
+
+  .about-container {
+    width: 90%;
+    margin: 120px auto;
+    
+    
+  }
+
+  .about-description {
+    margin-top: 50px;
+    
+  }
+
 
   .up-button {
     right: 10px;
@@ -631,6 +651,37 @@ textarea:focus {
   .landing-description h1 {
     font-size: 25px;
   }
+  
+ #main {
+  font-size: 15px;
+ }
+ 
+  
+}
+
+
+
+@media screen and (min-width:720px) and (max-width: 1024px ) {
+  
+.about-description {
+  margin-top: 50px
+}
+  
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .about-container{
+    flex-direction: column;
+    
+  }
+
+  .about-description {
+    margin-top: 50px
+  }
+
+
 }
 
 .form-section .message.success {
