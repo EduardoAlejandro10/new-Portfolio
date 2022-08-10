@@ -5,7 +5,7 @@
   box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
   height: 60px;
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 9999;
 }
@@ -35,7 +35,9 @@
 .nav-button {
   font-size: 30px; 
   display: none; 
+  cursor: pointer;
 }
+
 
 
 

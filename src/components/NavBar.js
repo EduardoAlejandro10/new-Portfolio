@@ -12,24 +12,24 @@ const NavBar = ({ handleChangeTheme }) => {
   };
 
   return (
-    <div>
+   
       <nav className="my-navbar">
         <div className="icons-theme-container">
           <div className="icons">
-            <i class="fa-solid fa-sun"></i>
-            <i class="fa-solid fa-moon"></i>
+            <i className="fa-solid fa-sun"></i>
+            <i className="fa-solid fa-moon"></i>
           </div>
           <div>
-            <div id="theme-container" class="custom-control custom-switch">
+            <div id="theme-container" className="custom-control custom-switch">
               <input
                 type="checkbox"
-                class="custom-control-input"
+                className="custom-control-input"
                 id="customSwitches"
               />
               <label
                 onClick={handleChangeTheme}
-                class="custom-control-label"
-                for="customSwitches"
+                className="custom-control-label"
+                htmlFor="customSwitches"
               ></label>
             </div>
           </div>
@@ -52,10 +52,10 @@ const NavBar = ({ handleChangeTheme }) => {
           </ul>
         </div>
         <div className="nav-button">
-          <i onClick={toggleClass} class="fa-solid fa-bars"></i>
+          <i onClick={toggleClass} className="fa-solid fa-bars"></i>
         </div>
       </nav>
-    </div>
+    
   );
 };
 

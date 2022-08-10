@@ -145,6 +145,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  position: absolute;
+  z-index: 50;
 }
 
 
