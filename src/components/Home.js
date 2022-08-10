@@ -7,6 +7,7 @@ import MyProjects from "./MyProjects";
 import Freelance from "./Freelance";
 import NavBar from "./NavBar";
 import { useState } from "react";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const [theme, setTheme] = useState(true);
       <Freelance  />
       <MyProjects />
       <Contact />
+      <Footer />
     </div>
   );
 };
