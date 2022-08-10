@@ -1,6 +1,7 @@
 import { motion, useAnimationControls } from 'framer-motion';
 import { about, spanishCv } from '../assets';
 import { useIsVisible } from '../hooks/useIsVisible';
+import '../styles/About.css';
 
 export function About() {
   const { isVisible, elementRef } = useIsVisible({ once: true, threshold: 0.2 });

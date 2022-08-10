@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import '../styles/Contact.css';
 
 export function Contact() {
   const [message, setMessage] = useState(null);

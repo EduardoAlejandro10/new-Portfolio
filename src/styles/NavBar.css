@@ -1,0 +1,102 @@
+.my-navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+
+.my-nav-ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  list-style: none;
+  font-weight: 600;
+}
+
+
+.my-nav-ul li>a {
+  color: #000;
+  font-weight: 600;
+}
+
+.my-nav-ul li>a:hover {
+  color: #f3b32a;
+}
+
+
+.nav-button {
+  font-size: 30px; 
+  display: none; 
+}
+
+
+
+
+
+
+
+.sun {
+  width: 30px;
+}
+
+
+.moon {
+  width: 30px;
+}
+
+.icons-theme-container {
+  display: flex;
+  gap: 5px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icons-theme-container i {
+  font-size: 20px;
+
+  color: #f3b32a;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.flags-toggle img {
+  width: 30px;
+  height: 30px;
+  
+} 
+
+.flags-toggle {
+  width: 20%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 720px) {
+  .nav-button {
+    display: block;
+  }  
+
+ 
+
+  .my-nav-ul {
+    display: none;
+  }
+}

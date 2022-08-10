@@ -1,0 +1,207 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  overflow: hidden;
+}
+
+.about-img-container {
+  width: 100%;
+  max-width: 500px;
+  min-width: 280px;
+  border: 15px solid #f3b32a;
+}
+
+.about-img-container img {
+  width: 100%;
+}
+
+.about-description {
+  width: 50%;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.about-description h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-description>.about-main-description {
+  width: 50%;
+  min-width: 300px;
+}
+
+.personal-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-mini-containers {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.p {
+  margin-left: 15px;
+}
+
+.p-2 {
+  margin-left: -25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tel {
+  margin-top: 8px;
+}
+
+.mail {
+  margin-left: 0px;
+}
+
+.cv-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  width: 150px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #f3b32a;
+  text-align: center;
+  height: 40px;
+}
+
+.cv-buttons {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cv-buttons:hover {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.cv-buttons:hover {
+  color: #f3b32a;
+  transition: 0.5s;
+}
+
+.download-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .info-mini-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+  }
+
+  .about-container {
+    width: 90%;
+    margin: 120px auto;
+
+
+  }
+
+
+
+  .about-description {
+    margin-top: 50px;
+
+  }
+
+
+  .up-button {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+
+  .download-buttons-container {
+    justify-content: center;
+
+  }
+
+
+  .social-media-container {
+    justify-content: center;
+
+  }
+
+  .inputs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .inputs-container input {
+    width: 300px;
+  }
+
+  .landing-description span {
+    font-size: 25px;
+  }
+
+  .landing-description h1 {
+    font-size: 25px;
+  }
+
+  #main {
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+@media screen and (min-width:720px) and (max-width: 1024px) {
+
+  .about-description {
+    margin-top: 50px
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .about-container {
+    flex-direction: column;
+
+  }
+
+  .about-description {
+    margin-top: 50px
+  }
+
+
+}
+
+.form-section .message.success {
+  color: green;
+}
+
+.form-section .message.error {
+  color: red;
+}

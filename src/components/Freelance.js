@@ -2,6 +2,7 @@ import React from "react";
 import { useIsVisible } from '../hooks/useIsVisible';
 import { useAnimationControls } from 'framer-motion';
 import { motion } from 'framer-motion';
+import '../styles/Freelance.css';
 
 const Freelance = () => {
   const { isVisible, elementRef } = useIsVisible({

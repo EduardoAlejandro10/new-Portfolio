@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, useAnimationControls } from 'framer-motion';
+import '../styles/MySkills.css';
 
 export default function SkillCard({ isVisible, skill }) {
   const skillCardControl = useAnimationControls();

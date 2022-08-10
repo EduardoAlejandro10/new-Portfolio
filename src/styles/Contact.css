@@ -1,0 +1,215 @@
+.form-title {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.form-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #f3b32a;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.form-title h2 {
+  font-weight: bold;
+  color: #f3b32a;
+}
+
+.form-title h2::before {
+  content: 'Contacta';
+  color: #000;
+}
+
+.form-title p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-item {
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  margin:  auto;
+  margin-top: 150px;
+}
+
+.form-item input {
+  max-height: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-input textarea {
+  width: 70%;
+}
+
+.inputs-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.inputs-container input {
+  width: 15%;
+  max-width: 400px;
+  height: 40px;
+  min-width: 200px;
+}
+
+.form-button {
+  width: 150px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #f3b32a;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+
+  font-weight: 600;
+  border: none;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #f3b32a;
+
+  transition: all 0.3s ease-in-out;
+}
+
+::placeholder {
+  padding: 10px;
+}
+
+.inputs-container input {
+  border: 1px solid lightgray;
+}
+
+.inputs-container input:focus {
+  outline: none;
+  border: 1px solid #f3b32a;
+}
+
+textarea {
+  border: 1px solid lightgray;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid #f3b32a;
+}
+
+
+@media screen and (max-width: 720px) {
+  .info-mini-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+  }
+
+  .about-container {
+    width: 90%;
+    margin: 120px auto;
+
+
+  }
+
+
+
+  .about-description {
+    margin-top: 50px;
+
+  }
+
+
+  .up-button {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+
+  .download-buttons-container {
+    justify-content: center;
+
+  }
+
+
+  .social-media-container {
+    justify-content: center;
+
+  }
+
+  .inputs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .inputs-container input {
+    width: 300px;
+  }
+
+  .landing-description span {
+    font-size: 25px;
+  }
+
+  .landing-description h1 {
+    font-size: 25px;
+  }
+
+  #main {
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+@media screen and (min-width:720px) and (max-width: 1024px) {
+
+  .about-description {
+    margin-top: 50px
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .about-container {
+    flex-direction: column;
+
+  }
+
+  .about-description {
+    margin-top: 50px
+  }
+
+
+}
+
+.form-section .message.success {
+  color: green;
+}
+
+.form-section .message.error {
+  color: red;
+}

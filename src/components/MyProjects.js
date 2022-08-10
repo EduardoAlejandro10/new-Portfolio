@@ -1,6 +1,10 @@
 import React from "react";
 import { ecommerce, morty, doc, crud } from "../assets";
 import { useState } from "react";
+import '../styles/MyProyects.css';
+
+
+
 const MyProjects = () => {
   const [toggle, setToggle] = useState(0);
 

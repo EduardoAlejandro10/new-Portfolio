@@ -1,0 +1,199 @@
+.work-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.work-buttons-container button {
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 7px 10px;
+}
+
+.work-buttons-container button:hover {
+  background-color: #f3b32a;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.projects-img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 80px auto;
+}
+
+.img-item img {
+  width: 100%;
+}
+
+.img-item {
+  position: relative;
+  width: 20%;
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.491);
+  visibility: hidden;
+}
+
+.img-overlay-content {
+  width: 100%;
+  height: 100%;
+  margin: 30px auto;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+
+.img-overlay-content>p,
+h5 {
+  margin-right: 40%;
+}
+
+.img-overlay-content p {
+  font-weight: 600;
+}
+
+.img-item:hover .img-overlay {
+  transition: 0.4s;
+  visibility: visible;
+}
+
+.img-overlay-content a {
+  margin-left: 80%;
+  color: #f3b32a;
+  border-radius: 50%;
+  padding: 11px;
+  border: 1px solid #f3b32a;
+}
+
+.img-overlay-content a:hover {
+  color: #fff;
+}
+
+
+.img-overlay-content p {
+  color: #f3b32a;
+}
+
+
+
+@media screen and (max-width: 720px) {
+  .info-mini-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 100%;
+  }
+
+  .about-container {
+    width: 90%;
+    margin: 120px auto;
+
+
+  }
+
+
+
+  .about-description {
+    margin-top: 50px;
+
+  }
+
+
+  .up-button {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+
+  .download-buttons-container {
+    justify-content: center;
+
+  }
+
+
+  .social-media-container {
+    justify-content: center;
+
+  }
+
+  .inputs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .inputs-container input {
+    width: 300px;
+  }
+
+  .landing-description span {
+    font-size: 25px;
+  }
+
+  .landing-description h1 {
+    font-size: 25px;
+  }
+
+  #main {
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+@media screen and (min-width:720px) and (max-width: 1024px) {
+
+  .about-description {
+    margin-top: 50px
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .about-container {
+    flex-direction: column;
+
+  }
+
+  .about-description {
+    margin-top: 50px
+  }
+
+
+}
+
+.form-section .message.success {
+  color: green;
+}
+
+.form-section .message.error {
+  color: red;
+}

@@ -1,3 +1,74 @@
+.my-services-landing {
+  text-align: center;
+  width: 50%;
+  margin: 150px auto;
+}
+
+.my-services-landing span {
+  color: #f3b32a;
+}
+
+.my-services-landing p {
+  margin: 0 auto;
+}
+
+.underline-services {
+  width: 100px;
+  height: 2px;
+  background-color: #f3b32a;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.services-box-container {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.service-box {
+  width: 30%;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  min-width: 300px;
+  max-width: 350px;
+  min-height: 280px;
+  padding: 15px;
+}
+
+.service-box i {
+  font-size: 50px;
+  color: #f3b32a;
+}
+
+.service-box h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.service-box:hover {
+  background-color: #f3b32a;
+  color: #fff;
+
+  transition: 0.1s;
+}
+
+.service-box:hover h3 {
+  color: #fff;
+}
+
+.service-box:hover i {
+  color: #fff;
+}
+
+
+
 @media screen and (max-width: 720px) {
   .info-mini-containers {
     display: flex;

@@ -1,51 +1,58 @@
-import React from 'react';
+import React from "react";
+import { uk, spain } from "../assets";
 
-const NavBar = () => {
+import "../styles/NavBar.css";
+
+const NavBar = ({ handleChangeTheme }) => {
+
+
+  const toggleClass = () => {
+    document.getElementById("menu").classList.toggle("true");
+    document.getElementById("menu-scroll").classList.toggle("scroll-menu-show");
+  };
+
   return (
-    <div  style={{ position: 'sticky', top: '0', zIndex: '999' }}>
-      <nav id='nav' className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div  className='container-fluid'>
-          <a id='main' className='navbar-brand' href='#main'>
-            Eduardo Alejandro
-          </a>
-          <button
-          
-            className='navbar-toggler'
-            type='button'
-            data-bs-toggle='collapse'
-            data-bs-target='#navbarColor02'
-            aria-controls='navbarColor02'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <span id='button' className='navbar-toggler-icon'></span>
-          </button>
-
-          <div className='collapse navbar-collapse' id='navbarColor02'>
-            <ul className='navbar-nav me-auto'>
-              <li className='nav-item'>
-                <a className='nav-link active' href='#main'>
-                 
-                  <span className='visually-hidden'>(current)</span>
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a  className='nav-link' href='#skills'>
-                  Habilidades
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='#proyects'>
-                  Proyectos
-                </a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='#contact'>
-                  Contacto
-                </a>
-              </li>
-            </ul>
+    <div>
+      <nav className="my-navbar">
+        <div className="icons-theme-container">
+          <div className="icons">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
           </div>
+          <div>
+            <div id="theme-container" class="custom-control custom-switch">
+              <input
+                type="checkbox"
+                class="custom-control-input"
+                id="customSwitches"
+              />
+              <label
+                onClick={handleChangeTheme}
+                class="custom-control-label"
+                for="customSwitches"
+              ></label>
+            </div>
+          </div>
+        </div>
+        <div className="flags-toggle">
+          <img src={uk} alt="uk" />
+          <img src={spain} alt="spain" />
+        </div>
+        <div className="nav-list">
+          <ul className="my-nav-ul">
+            <li>
+              <a href="#skills">Habilidades</a>
+            </li>
+            <li>
+              <a href="#proyects">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div className="nav-button">
+          <i onClick={toggleClass} class="fa-solid fa-bars"></i>
         </div>
       </nav>
     </div>
