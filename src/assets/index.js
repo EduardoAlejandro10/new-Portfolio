@@ -12,3 +12,4 @@ export { default as uk } from "./uk.png";
 export { default as icon } from "./icon.png";
 export {default as sun} from "./sun.png";
 export {default as moon} from "./moon.png";
+export {default as EnglishPortfolio} from "./ENGLISH PORTFOLIO.pdf"

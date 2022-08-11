@@ -1,5 +1,5 @@
 import { motion, useAnimationControls } from 'framer-motion';
-import { about, spanishCv } from '../assets';
+import { about, EnglishPortfolio, spanishCv } from '../assets';
 import { useIsVisible } from '../hooks/useIsVisible';
 import '../styles/About.css';
 
@@ -81,7 +81,7 @@ export function About() {
             </a>
           </div>
           <div>
-            <a className='cv-buttons' download rel='noopener noreferrer' href={spanishCv}>
+            <a className='cv-buttons' download rel='noopener noreferrer' href={EnglishPortfolio}>
               {' '}
               Download Cv
             </a>
