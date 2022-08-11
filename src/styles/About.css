@@ -43,17 +43,12 @@
 
 .info-mini-containers {
   display: flex;
-  gap: 30px;
+  gap: 10px;
   width: 100%;
 }
 
-.p {
-  margin-left: 15px;
-}
 
-.p-2 {
-  margin-left: -25px;
-}
+
 
 .bold {
   font-weight: bold;
@@ -63,9 +58,7 @@
   margin-top: 8px;
 }
 
-.mail {
-  margin-left: 0px;
-}
+
 
 .cv-buttons {
   display: flex;
@@ -103,11 +96,12 @@
 }
 
 
+
+
 @media screen and (max-width: 720px) {
   .info-mini-containers {
     display: flex;
-    flex-direction: column;
-    gap: 1px;
+    
     width: 100%;
   }
 

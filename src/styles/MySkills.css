@@ -1,6 +1,6 @@
 .my-services-landing {
   text-align: center;
-  width: 50%;
+  width: 60%;
   margin: 150px auto;
 }
 
@@ -49,7 +49,7 @@
 .service-box h3 {
   font-size: 22px;
   font-weight: bold;
-  margin-top: 10px;
+  
 }
 
 .service-box:hover {
@@ -72,7 +72,7 @@
 @media screen and (max-width: 720px) {
   .info-mini-containers {
     display: flex;
-    flex-direction: column;
+
     gap: 1px;
     width: 100%;
   }

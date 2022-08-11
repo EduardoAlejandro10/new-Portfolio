@@ -56,20 +56,20 @@ export function About() {
         <div className='personal-container'>
           <div className='personal-info-container'>
             <div className='info-mini-containers'>
-              <p className='bold'>Name</p>
-              <p>: Eduardo Alejandro</p>
+              <p className='bold'>Nombre :</p>
+              <p className='name'> Eduardo Alejandro</p>
             </div>
             <div className='info-mini-containers'>
-              <p className='bold'>Age</p>
-              <p className='p'>: 22</p>
+              <p className='bold'>Edad :</p>
+              <p className='p'>22</p>
             </div>
             <div className='info-mini-containers'>
-              <p className='bold tel'> Telefono </p>
-              <p className='p-2'>: +52 828 173 2200</p>
+              <p className='bold tel'>Telefono :</p>
+              <p className='p-2'> +52 828 173 2200</p>
             </div>
             <div className='info-mini-containers'>
-              <p className='bold '>Email</p>
-              <p className='mail'>: ebotellopenacontact@gmail.com</p>
+              <p className='bold '>Email :</p>
+              <p className='mail'> ebotellopenacontact@gmail.com</p>
             </div>
           </div>
         </div>

@@ -21,7 +21,7 @@ export default function SkillCard({ isVisible, skill }) {
       initial={{ [skill.property]: skill.translate, opacity: 0 }}
       animate={skillCardControl}
     >
-      <i className='fa-brands fa-html5'></i>
+      <i>{skill.icon}</i>
       <h3>{skill.technology}</h3>
       <p>{skill.description}</p>
     </motion.div>

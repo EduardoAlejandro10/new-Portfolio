@@ -114,8 +114,6 @@ textarea:focus {
 @media screen and (max-width: 720px) {
   .info-mini-containers {
     display: flex;
-    flex-direction: column;
-    gap: 1px;
     width: 100%;
   }
 
