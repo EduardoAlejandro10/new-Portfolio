@@ -70,28 +70,7 @@
 
 
 
-@media screen and (min-width:720px) and (max-width: 1024px) {
 
-  .about-description {
-    margin-top: 50px
-  }
-
-}
-
-
-
-@media screen and (min-width: 1000px) and (max-width: 1130px) {
-  .about-container {
-    flex-direction: column;
-
-  }
-
-  .about-description {
-    margin-top: 50px
-  }
-
-
-}
 
 .form-section .message.success {
   color: green;

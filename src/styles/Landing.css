@@ -53,9 +53,6 @@ a {
   transform: scale(1.1);
 }
 
-.landing-description h1 {
-  width: 100%;
-}
 
 .landing-description span {
   font-weight: bold;
@@ -69,7 +66,7 @@ a {
 }
 
 .landing-description p {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .social-media-container {
@@ -169,70 +166,27 @@ a {
 
 
 
-@media screen and (max-width: 720px) {
-  .info-mini-containers {
-    display: flex;
+@media screen and (max-width: 960px) {
   
-    gap: 1px;
+  .landing-description {
     width: 100%;
-  }
-
-  .about-container {
-    width: 90%;
-    margin: 120px auto;
-
-
-  }
-
- 
-
-  .about-description {
-    margin-top: 50px;
-
-  }
-
-
-  .up-button {
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    padding: 5px;
-  }
-
-
-
-
-  .download-buttons-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    
   }
-
-
   .social-media-container {
     justify-content: center;
 
   }
 
-  .inputs-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-  }
-
-  .inputs-container input {
-    width: 300px;
-  }
 
   .landing-description span {
     font-size: 25px;
   }
 
-  .landing-description {
-    width: 40%;
-  }
+ 
 
   .landing-description h1 {
     font-size: 25px;
@@ -247,28 +201,7 @@ a {
 
 
 
-@media screen and (min-width:720px) and (max-width: 1024px) {
 
-  .about-description {
-    margin-top: 50px
-  }
-
-}
-
-
-
-@media screen and (min-width: 1000px) and (max-width: 1130px) {
-  .about-container {
-    flex-direction: column;
-
-  }
-
-  .about-description {
-    margin-top: 50px
-  }
-
-
-}
 
 .form-section .message.success {
   color: green;

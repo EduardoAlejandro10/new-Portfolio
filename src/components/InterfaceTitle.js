@@ -73,7 +73,7 @@ const InterfaceTitle = () => {
             Soy <span ref={el}></span>
           </h1>
           <p>
-            Me especializo en React js para el desarollo de aplicaciones web
+            Me especializo en React js para el desarrollo de aplicaciones web
             FullStack completamente responsive y que se ajuste a tus necesidades
             como cliente.
           </p>

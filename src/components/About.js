@@ -47,11 +47,11 @@ export function About() {
       >
         <h2>Hola, Soy Eduardo Alejandro </h2>
         <p className='about-main-description'>
-          Hola!! Soy Eduardo, desarrollador web especializado en React.js. soy un apasionado de la
-          tecnologia con una increible capacidad del autoaprendizaje, tengo 22 años y soy de
-          Monterrey, Nuevo Leon la ciudad de las montañas, me encantaria ser parte de tu equipo, si
+          desarrollador web especializado en React.js. soy un apasionado de la
+          tecnología con una increíble capacidad del auto aprendizaje, tengo 22 años y soy de
+          Monterrey, Nuevo Leon la ciudad de las montañas, me encantaría ser parte de tu equipo, si
           tienes alguna duda o quieres saber más de mi, puedes contactarme a través de mis redes
-          sociales o por un mensaje a travez del formulario de contacto.
+          sociales o por un mensaje a traves del formulario de contacto.
         </p>
         <div className='personal-container'>
           <div className='personal-info-container'>
@@ -64,7 +64,7 @@ export function About() {
               <p className='p'>22</p>
             </div>
             <div className='info-mini-containers'>
-              <p className='bold tel'>Telefono :</p>
+              <p className='bold tel'>Teléfono :</p>
               <p className='p-2'> +52 828 173 2200</p>
             </div>
             <div className='info-mini-containers'>

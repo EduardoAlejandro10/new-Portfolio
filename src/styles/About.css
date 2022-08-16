@@ -23,6 +23,8 @@
   width: 50%;
   max-width: 500px;
   min-width: 300px;
+
+  
 }
 
 .about-description h2 {
@@ -36,7 +38,6 @@
 }
 
 .personal-container {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -98,17 +99,12 @@
 
 
 
-@media screen and (max-width: 720px) {
-  .info-mini-containers {
-    display: flex;
-    
-    width: 100%;
-  }
-
+@media screen and (max-width: 1200px) {
+ 
   .about-container {
     width: 90%;
     margin: 120px auto;
-
+    
 
   }
 
@@ -116,18 +112,17 @@
 
   .about-description {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   }
 
 
-  .up-button {
-    right: 10px;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    padding: 5px;
-  }
+  
 
+  
 
   .download-buttons-container {
     justify-content: center;
@@ -135,34 +130,7 @@
   }
 
 
-  .social-media-container {
-    justify-content: center;
-
-  }
-
-  .inputs-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-  }
-
-  .inputs-container input {
-    width: 300px;
-  }
-
-  .landing-description span {
-    font-size: 25px;
-  }
-
-  .landing-description h1 {
-    font-size: 25px;
-  }
-
-  #main {
-    font-size: 15px;
-  }
+ 
 
 
 }

@@ -43,7 +43,7 @@ export function Contact() {
       <div className='form-title'>
         <h2>me</h2>
         <p>
-          contactame para mas informacion ya sea por el formulario debajo o por telefono, recuerda que todo empieza con una
+          contácteme para mas información ya sea por el formulario debajo o por teléfono, recuerda que todo empieza con una
           idea.
         </p>
       </div>

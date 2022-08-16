@@ -16,7 +16,7 @@ const MyProjects = () => {
         </h2>
         <p>
           algunos de los proyectos web que eh realizado con las diferentes
-          tecnologias que manejo, sientete libre de revisarlos.
+          tecnologías que manejo, siéntete libre de revisarlos.
         </p>
         <div className="underline-services"></div>
       </section>
