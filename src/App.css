@@ -14,7 +14,7 @@ html {
   color: white;
 }
 
-.main-landing.dark .form-title h2::before {
+.main-landing.dark .span{
   color: #fff;
 }
 

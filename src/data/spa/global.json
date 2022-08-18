@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "title": "Soy",
+    "description": "Me especializo en React Js para el desarrollo de aplicaciones web fullstack comletamente responsive y que se ajustenn a tus necesidades como cliente."
+  },
+  "about": {
+    "title": "Hola, Soy Eduardo Alejandro",
+    "description": "desarrollador web especializado en React.js. soy un apasionado de la tecnología con una increíble capacidad del auto aprendizaje, tengo 22 años y soy de Monterrey, Nuevo Leon la ciudad de las montañas, me encantaría ser parte de tu equipo, si tienes alguna duda o quieres saber más de mi, puedes contactarme a través de mis redes sociales o por un mensaje a traves del formulario de contacto."
+  },
+  "info": {
+    "name": "Nombre :",
+    "age": "Edad :",
+    "Phone": "Teléfono :",
+    "email": "Correo :"
+  },
+  "skills": {
+    "title": "Mis",
+    "title2": "Habilidades"
+  },
+
+  "freelance": {
+    "title": "Estoy Disponible Como Freelancer !!"
+  },
+  "contact": {
+    "title": "Contact",
+    "title2": "ame"
+    
+    }
+}

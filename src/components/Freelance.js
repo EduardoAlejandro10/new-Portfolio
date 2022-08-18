@@ -3,8 +3,13 @@ import { useIsVisible } from '../hooks/useIsVisible';
 import { useAnimationControls } from 'framer-motion';
 import { motion } from 'framer-motion';
 import '../styles/Freelance.css';
+import {useTranslation} from 'react-i18next';
 
 const Freelance = () => {
+
+
+const [t, i18n] = useTranslation('global');
+
   const { isVisible, elementRef } = useIsVisible({
     once: true,
     threshold: 0.5,
@@ -30,7 +35,7 @@ const Freelance = () => {
           initial={{ y: -200, opacity: 0 }}
           animate={freelanceTransition}
         >
-          <h3  className="h2-freelance">Estoy Disponible Como Freelancer !!</h3>
+          <h3  className="h2-freelance">{t("freelance.title")}</h3>
           <a
             rel="noopener noreferrer"
             target="_blank"

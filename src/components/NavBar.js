@@ -1,9 +1,12 @@
 import React from "react";
 import { uk, spain } from "../assets";
-
+import {useTranslation}from 'react-i18next'
 import "../styles/NavBar.css";
 
 const NavBar = ({ handleChangeTheme }) => {
+
+  const [t, i18n] = useTranslation('global');
+
 
 
   const toggleClass = () => {
@@ -35,8 +38,8 @@ const NavBar = ({ handleChangeTheme }) => {
           </div>
         </div>
         <div className="flags-toggle">
-          <img src={uk} alt="uk" />
-          <img src={spain} alt="spain" />
+          <img className="uk" src={uk} alt="uk" onClick={() => i18n.changeLanguage("eng")} />
+          <img className="spain" src={spain} alt="spain" onClick={() => i18n.changeLanguage("spa")} />
         </div>
         <div className="nav-list">
           <ul className="my-nav-ul">

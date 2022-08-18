@@ -18,8 +18,8 @@
   color: #f3b32a;
 }
 
-.form-title h2::before {
-  content: 'Contacta';
+.form-title span {
+  display: inline;
   color: #000;
 }
 

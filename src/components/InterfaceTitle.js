@@ -4,16 +4,14 @@ import { useRef, useEffect, } from "react";
 import { useState } from "react";
 import { photo1 } from "../assets";
 import '../styles/Landing.css';
-
+import {useTranslation} from "react-i18next"
 
 
 
 const InterfaceTitle = () => {
 
 
-
-
-  
+const [t, i18n] = useTranslation('global'); 
 
 
 
@@ -34,7 +32,7 @@ const InterfaceTitle = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Eduardo", "Desarrollador Web"], // Strings to display
+      strings: ["Eduardo", "Web Developer"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 300,
       typeSpeed: 100,
@@ -70,12 +68,10 @@ const InterfaceTitle = () => {
       </div>
         <div className="landing-description">
           <h1>
-            Soy <span ref={el}></span>
+            {t('interface.title')} <span ref={el}></span>
           </h1>
           <p>
-            Me especializo en React js para el desarrollo de aplicaciones web
-            FullStack completamente responsive y que se ajuste a tus necesidades
-            como cliente.
+            {t('interface.description')}
           </p>
           <div className="social-media-container">
             <a

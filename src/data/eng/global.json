@@ -1,0 +1,31 @@
+{
+  "interface": {
+    "title": "I am",
+    "description": "I especialize on React js developing web fullstack applications completely responsive acording to your necesities as a client"
+  },
+    "about": {
+  "title": "Hi, I'm Eduardo Alejandro",
+  "description": "web developer especialized on React js, im a passionate of technology with an incredible self learning hability, im 22 years old and im from Monterrey, Nuevo Leon the mountais city, i would love to be part of your team, if you have any question get in touch with me through my social media or with a message through the contact formulary down there  "
+},
+"info": {
+  "name": "Name :",
+  "age": "Age :",
+  "Phone": "Phone :",
+  "email": "Email :"
+},
+
+"skills": {
+  "title": "My",
+  "title2": " Skills"
+},
+
+"freelance": {
+  "title": "I'am Available to Freelance !!"
+},
+  "contact": {
+"title": "Contact",
+"title2": "me"
+
+}
+
+}

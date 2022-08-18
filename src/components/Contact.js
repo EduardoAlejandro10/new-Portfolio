@@ -1,8 +1,16 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
+import { useTranslation } from 'react-i18next';
+import dotenv from 'dotenv';
 
 export function Contact() {
+
+
+  dotenv.config({ path: './.env.production' });
+
+const [t, i18n] = useTranslation("global")
+
   const [message, setMessage] = useState(null);
 
   const handleSubmit = (e) => {
@@ -41,7 +49,7 @@ export function Contact() {
   return (
     <section id='contact' className='form-section'>
       <div className='form-title'>
-        <h2>me</h2>
+        <h2><span className='span'>{t("contact.title")}</span>{t("contact.title2")}</h2>
         <p>
           contácteme para mas información ya sea por el formulario debajo o por teléfono, recuerda que todo empieza con una
           idea.
