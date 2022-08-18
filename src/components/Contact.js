@@ -2,12 +2,10 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../styles/Contact.css';
 import { useTranslation } from 'react-i18next';
-import dotenv from 'dotenv';
+
 
 export function Contact() {
 
-
-  dotenv.config({ path: './config.env' });
 
 const [t, i18n] = useTranslation("global")
 
