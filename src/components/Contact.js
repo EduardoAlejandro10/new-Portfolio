@@ -7,7 +7,7 @@ import dotenv from 'dotenv';
 export function Contact() {
 
 
-  dotenv.config({ path: './.env.production' });
+  dotenv.config({ path: './config.env' });
 
 const [t, i18n] = useTranslation("global")
 
