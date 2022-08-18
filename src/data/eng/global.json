@@ -24,7 +24,13 @@
 },
   "contact": {
 "title": "Contact",
-"title2": "me"
+"title2": "me",
+"description": "get in touch with me for more information through the formulary down here or through a phone call or message, remember that all starts with an idea.",
+"holder1": "Name",
+"holder2": "Email",
+"holder3": "Subject",
+"holder4": "Message",
+"button": "Send"
 
 }
 

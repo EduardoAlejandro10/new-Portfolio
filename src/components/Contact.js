@@ -49,21 +49,20 @@ const [t, i18n] = useTranslation("global")
       <div className='form-title'>
         <h2><span className='span'>{t("contact.title")}</span>{t("contact.title2")}</h2>
         <p>
-          contácteme para mas información ya sea por el formulario debajo o por teléfono, recuerda que todo empieza con una
-          idea.
+        {t("contact.description")}
         </p>
       </div>
       <div className='form-container'>
         <form className='form-item' onSubmit={handleSubmit}>
           <div className='inputs-container'>
-            <input type='text' name='name' placeholder='Nombre' />
-            <input type='email' name='email' placeholder='Email' />
-            <input type='text' name='subject' placeholder='Asunto' />
+            <input type='text' name='name' placeholder={t("contact.holder1")} />
+            <input type='email' name='email' placeholder={t("contact.holder2")} />
+            <input type='text' name='subject' placeholder={t("contact.holder3")} />
           </div>
           <div className='message-input'>
             <textarea
               style={{ resize: 'none' }}
-              placeholder='Mensaje'
+              placeholder={t("contact.holder4")}
               name='message'
               cols='100'
               rows='5'
@@ -75,7 +74,7 @@ const [t, i18n] = useTranslation("global")
             </div>
           )}
           <button type='submit' className='form-button'>
-            Enviar
+            {t("contact.button")}
           </button>
         </form>
       </div>

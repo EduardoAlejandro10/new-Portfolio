@@ -23,7 +23,14 @@
   },
   "contact": {
     "title": "Contact",
-    "title2": "ame"
+    "title2": "ame",
+    "description": "contáctame para mas información ya sea por el formulario debajo o por teléfono, recuerda que todo empieza con una idea",
+    "holder1": "Nombre",
+    "holder2": "Correo",
+    "holder3": "Asunto",
+    "holder4": "Mensaje",
+    "button": "Enviar"
+    
     
     }
 }
