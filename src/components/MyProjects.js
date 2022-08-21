@@ -2,27 +2,31 @@ import React from "react";
 import { ecommerce, morty, doc, crud } from "../assets";
 import { useState } from "react";
 import '../styles/MyProyects.css';
+import { useTranslation } from "react-i18next";
 
 
 
 const MyProjects = () => {
+  
+
+const [t] = useTranslation('global');
+
   const [toggle, setToggle] = useState(0);
 
   return (
     <div>
       <section id="proyects" className="my-services-landing">
         <h2>
-          Mis <span>Proyectos</span>
+          {t("proyects.title1")} <span>{t("proyects.title2")}</span>
         </h2>
         <p>
-          algunos de los proyectos web que eh realizado con las diferentes
-          tecnologías que manejo, siéntete libre de revisarlos.
+          {t("proyects.description")}
         </p>
         <div className="underline-services"></div>
       </section>
       <section className="my-work">
         <div className="work-buttons-container">
-          <button onClick={() => setToggle(0)}>Todos</button>
+          <button onClick={() => setToggle(0)}>{t("proyects.button")}</button>
           <button onClick={() => setToggle(1)}>Ecommerce</button>
           <button onClick={() => setToggle(2)}>Freelance Projects</button>
           <button onClick={() => setToggle(3)}>Rick And Morty Wiki</button>

@@ -6,12 +6,10 @@ import { photo1 } from "../assets";
 import '../styles/Landing.css';
 import {useTranslation} from "react-i18next"
 
-
-
 const InterfaceTitle = () => {
 
 
-const [t, i18n] = useTranslation('global'); 
+const [t] = useTranslation('global'); 
 
 
 
@@ -56,13 +54,13 @@ const [t, i18n] = useTranslation('global');
       <div id="menu" className='menu'>
         <ul id="menu-scroll" className="scroll-menu">
           <li>
-            <a href="#skills">Habilidades</a>
+            <a href="#skills">{t("nav.link1")}</a>
           </li>
           <li>
-            <a href="#proyects">Proyectos</a>
+            <a href="#proyects">{t("nav.link2")}</a>
           </li>
           <li>
-            <a href="#contact">Contacto</a>
+            <a href="#contact">{t("nav.link3")}</a>
           </li>
         </ul>
       </div>

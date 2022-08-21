@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export function Contact() {
 
 
-const [t, i18n] = useTranslation("global")
+const [t] = useTranslation("global")
 
   const [message, setMessage] = useState(null);
 

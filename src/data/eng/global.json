@@ -3,35 +3,54 @@
     "title": "I am",
     "description": "I especialize on React js developing web fullstack applications completely responsive acording to your necesities as a client"
   },
-    "about": {
-  "title": "Hi, I'm Eduardo Alejandro",
-  "description": "web developer especialized on React js, im a passionate of technology with an incredible self learning hability, im 22 years old and im from Monterrey, Nuevo Leon the mountais city, i would love to be part of your team, if you have any question get in touch with me through my social media or with a message through the contact formulary down there  "
-},
-"info": {
-  "name": "Name :",
-  "age": "Age :",
-  "Phone": "Phone :",
-  "email": "Email :"
-},
+  "about": {
+    "title": "Hi, I'm Eduardo Alejandro",
+    "description": "web developer especialized on React js, im a passionate of technology with an incredible self learning hability, im 22 years old and im from Monterrey, Nuevo Leon the mountais city, i would love to be part of your team, if you have any question get in touch with me through my social media or with a message through the contact formulary down there  "
+  },
+  "info": {
+    "name": "Name :",
+    "age": "Age :",
+    "Phone": "Phone :",
+    "email": "Email :"
+  },
 
-"skills": {
-  "title": "My",
-  "title2": " Skills"
-},
+  "skills": {
+    "title": "My",
+    "title2": "Skills",
+    "description": "some of my habilities as a web developer focused to acomplish your necesities of web applications ",
+    "content": [
+      "great knowledge to how to estructure and deploy your website",
+      "experience styling the components for your website, with incredible design, completely responsive and full of functions",
+      "library that i work with to estructure, style and to add funcionalities to your website in order to ofeer you the best qualitiy projects",
+      "vast knowledge in what is basically the engine of a functional site in order to cover the needs of each client.",
+      "environment in which I specialize on the back-end side to develop your fullstack application.",
+      "library to apply styles that I use the most to facilitate animations and complex elements in order to carry out your project as soon as possible"    ]
+    },
+    "proyects": {
+      "title1":"My",
+      "title2": "Proyects",
+      "description": "some of the proyects that i have done with the tecnologies that i work with, feel free to check them out ",
+      "button": "All"
+    },
 
-"freelance": {
-  "title": "I'am Available to Freelance !!"
-},
+  "freelance": {
+    "title": "I'am Available to Freelance !!"
+  },
   "contact": {
-"title": "Contact",
-"title2": "me",
-"description": "get in touch with me for more information through the formulary down here or through a phone call or message, remember that all starts with an idea.",
-"holder1": "Name",
-"holder2": "Email",
-"holder3": "Subject",
-"holder4": "Message",
-"button": "Send"
+    "title": "Contact",
+    "title2": "me",
+    "description": "get in touch with me for more information through the formulary down here or through a phone call or message, remember that all starts with an idea.",
+    "holder1": "Name",
+    "holder2": "Email",
+    "holder3": "Subject",
+    "holder4": "Message",
+    "button": "Send"
 
-}
+  },
+  "nav": {
+    "link1": "Skills",
+    "link2": "Proyects",
+    "link3": "Contact"
+  }
 
 }

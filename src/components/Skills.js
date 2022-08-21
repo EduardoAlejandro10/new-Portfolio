@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export default function Skills() {
   const { isVisible, elementRef } = useIsVisible({ once: true, threshold: 0.25 });
 
-  const [t, i18n] = useTranslation('global');
+  const [t] = useTranslation('global');
   
   return (
     <>
@@ -16,13 +16,13 @@ export default function Skills() {
           {t("skills.title")} <span>{t("skills.title2")}</span>
         </h2>
         <p>
-          Algunas de mis habilidades como desarrollador web enfocado a cumplir tus necesidades de aplicaciones web.
+          {t("skills.description")}
         </p>
         <div className='underline-services'></div>
       </section>
       <section ref={elementRef} className='services-box-container'>
-        {skills.map((skill) => (
-          <SkillCard key={skill.id} isVisible={isVisible} skill={skill} />
+        {skills.map((skill, index) => (
+          <SkillCard key={skill.id} isVisible={isVisible} skill={skill} index={index}  />
         ))}
       </section>
     </>

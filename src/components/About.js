@@ -11,7 +11,7 @@ export function About() {
   const aboutControl = useAnimationControls();
   const aboutImgControl = useAnimationControls();
 
-  const [t, i18n] = useTranslation('global');
+  const [t] = useTranslation('global');
 
   if (isVisible) {
     aboutControl.start({

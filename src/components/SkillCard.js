@@ -1,8 +1,13 @@
 import React from 'react';
 import { motion, useAnimationControls } from 'framer-motion';
+import { useTranslation } from 'react-i18next'
 import '../styles/MySkills.css';
 
-export default function SkillCard({ isVisible, skill }) {
+
+export default function SkillCard({ isVisible, skill, index }) {
+
+  const [t] = useTranslation('global');
+
   const skillCardControl = useAnimationControls();
 
   if (isVisible) {
@@ -23,7 +28,9 @@ export default function SkillCard({ isVisible, skill }) {
     >
       <i>{skill.icon}</i>
       <h3>{skill.technology}</h3>
-      <p>{skill.description}</p>
+      <p>{t(`skills.content.${index}`)}</p>
     </motion.div>
   );
+
 }
+

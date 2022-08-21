@@ -15,7 +15,23 @@
   },
   "skills": {
     "title": "Mis",
-    "title2": "Habilidades"
+    "title2": "Habilidades",
+    "description": " Algunas de mis habilidades como desarrollador web enfocado a cumplir tus necesidades de aplicaciones web.",
+    "content": [
+      "basto conocimiento de como estructurar y desplegar tu sitio para que sea visible en la web..",
+      "experiencia en estilar los componentes para tu sitio web, con increibles diseños completamente responsive y llenos de funciones.",
+      "libreria en la que me especializo para maquetar estilar y agregar funcionalidades a tu sitio y asi poder ofrecerte la mejor calidad de proyectos.",
+      "basto conocimiento en lo que es basicamente el motor de un sitio funcional para asi cubrir las necesidades de cada cliente.",
+      "entorno en el que me especializo del lado del back-end para asi desarollar tu aplicacion fullstack.",
+      "libreria para aplicar estilos que mas utilizo para facilitar animaciones y elementos complejos para asi poder llevar a cabo tu proyecto en la brevedad posible."
+    ]
+  },
+  "proyects": {
+    "title1":"Mis",
+    "title2": "Proyectos",
+    "description": " algunos de los proyectos web que eh realizado con las diferentes tecnologías que manejo, siéntete libre de revisarlos.",
+    "button": "Todos"
+
   },
 
   "freelance": {
@@ -32,5 +48,10 @@
     "button": "Enviar"
     
     
+    },
+    "nav": {
+      "link1": "Habilidades",
+      "link2": "Proyectos",
+      "link3": "Contacto"
     }
 }

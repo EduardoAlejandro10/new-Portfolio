@@ -8,7 +8,7 @@ import {useTranslation} from 'react-i18next';
 const Freelance = () => {
 
 
-const [t, i18n] = useTranslation('global');
+const [t] = useTranslation('global');
 
   const { isVisible, elementRef } = useIsVisible({
     once: true,

@@ -44,13 +44,13 @@ const NavBar = ({ handleChangeTheme }) => {
         <div className="nav-list">
           <ul className="my-nav-ul">
             <li>
-              <a href="#skills">Habilidades</a>
+              <a href="#skills">{t("nav.link1")}</a>
             </li>
             <li>
-              <a href="#proyects">Proyectos</a>
+              <a href="#proyects">{t("nav.link2")}</a>
             </li>
             <li>
-              <a href="#contact">Contacto</a>
+              <a href="#contact">{t("nav.link3")}</a>
             </li>
           </ul>
         </div>

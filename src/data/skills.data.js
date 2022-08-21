@@ -1,13 +1,16 @@
+
 export const skills = [
+
   {
     id: 1,
     technology: 'HTML',
     icon: <i className='fa-brands fa-html5'></i>,
     description:
-      'basto conocimiento de como estructurar y desplegar tu sitio  para que sea visible en la web.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
     property: 'x',
     translate: -500,
   },
+  
   {
     id: 2,
     technology: 'CSS',
@@ -53,4 +56,4 @@ export const skills = [
     property: 'x',
     translate: 500,
   },
-];
+  ]
