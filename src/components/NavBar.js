@@ -9,6 +9,7 @@ const NavBar = ({ handleChangeTheme }) => {
 
 
 
+
   const toggleClass = () => {
     document.getElementById("menu").classList.toggle("true");
     document.getElementById("menu-scroll").classList.toggle("scroll-menu-show");

@@ -48,19 +48,25 @@ const [t] = useTranslation('global');
     };
   }, []);
 
+
+  const closeNav = () => {
+    document.getElementById("menu").classList.toggle("true");
+    document.getElementById("menu-scroll").classList.toggle("scroll-menu-show");
+  }
+
   return (
     <div>  
     <section id="scroll" className="landing-interface">
       <div id="menu" className='menu'>
         <ul id="menu-scroll" className="scroll-menu">
           <li>
-            <a href="#skills">{t("nav.link1")}</a>
+            <a onClick={closeNav} href="#skills">{t("nav.link1")}</a>
           </li>
           <li>
-            <a href="#proyects">{t("nav.link2")}</a>
+            <a onClick={closeNav} href="#proyects">{t("nav.link2")}</a>
           </li>
           <li>
-            <a href="#contact">{t("nav.link3")}</a>
+            <a onClick={closeNav} href="#contact">{t("nav.link3")}</a>
           </li>
         </ul>
       </div>
