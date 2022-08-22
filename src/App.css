@@ -31,6 +31,10 @@ html {
   
 }
 
+.main-landing.dark .my-nav-ul li>a:hover {
+  color: #f3b32a;
+}
+
 
 .main-landing.dark .my-nav-ul li>a{
   color: #fff;
